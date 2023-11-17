@@ -8,7 +8,7 @@ type GreetProps = {
 
 const Greet = (props: GreetProps) => {
   const {messageCount = 0} = props
-  
+
   return (
     <div>
         <h2>

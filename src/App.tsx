@@ -54,21 +54,26 @@ function App() {
     },
   ]
 
+  const Persons = {
+    first: "Josh",
+    last: "Kalibos"
+  }
+
   return (
     <>
       {/* <Greet name="Adjei" messageCount={20} isLoggedIn={true} /> */}
-      <Person name={personName} />
+      {/* <Person name={personName} /> */}
       {/* <PersonList names={nameList} />  */}
-      <Practice first='Joshua' last='Tulasi' />
+      
       {/* <Status status='success' /> */}
       {/* <Heading>Placeholder text</Heading> */}
       {/* <Oscar>
         <Heading>Oscar goes to Leonardo Dicpario!</Heading>
       </Oscar> */}
       {/* <Greet name='Joshua' isLoggedIn={true} /> */}
-      {/* <Button handleClick={(event, id) => {
+      <Button handleClick={(event, id) => {
         console.log('Button clicked', event, id)
-      }} /> */}
+      }} />
       {/* <Input value='' handleChange={event => console.log(event)} /> */}
       {/* <Container styles={{ border: '1px solid black', padding: '1rem'}} /> */}
       {/* <LoggedIn /> */}
